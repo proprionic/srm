@@ -130,6 +130,7 @@ def init():
     return home, trash_dir, trash_dir_files, trash_dir_metadata
 ```
 
+### Actual devlog..
 
 ###### 9th March 2026 -- 00:02 am
 
@@ -138,3 +139,7 @@ I added the list feature, i admit i used a little bit of AI to help me out with 
 ###### 9th March 2026 -- 19:07
 
 I added the recover feature, i gotta say i'm not sure about the code being the most clean and efficient but, it works! I'll probably check it out in a hour or so, i just need a little break. It wasn't that hard but, i did it in a public area and all the noise was KILLING me. 
+
+###### 10th March 2026 -- 13:28
+
+I woke up an hour ago and i'm already up working on SRM. Probably i'm putting too much effort since it's a pretty simple tool but i gotta say it's pretty enjoyable. What i wanna work on now is perfecting the recovery feature since right now srm knows how to recover files simply based off of the name. I wanna add the ability to recover files based off of size, deletion time and type. 
