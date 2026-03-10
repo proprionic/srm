@@ -7,8 +7,6 @@ from pathlib import Path
 
 import config
 
-config.init()
-
 
 def srm(file):
 
@@ -44,9 +42,9 @@ def srm(file):
     }
 
     shutil.move(delfile, destination)
-
+    print(f"File UUID: {file_id}")
     with open(metadata_path, "w") as f:
         json.dump(metadata, f)
-    print("JSON file created.")
+    print("Metadata created.")
 
     return metadata

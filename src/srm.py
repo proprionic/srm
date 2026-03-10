@@ -1,29 +1,12 @@
 import argparse
 
+import config
 from clean import clean
 from list import list_files
 from recover import recover
 from remove import srm
 
-"""
-This is a simple script to remove files and directories SAFELY.
-It will move the files and directories to a temporary directory before asking you for confirmation.
-
-USAGE:
-srm -clean -- delete ALL files in the "trash" directory
-srm -clean (n) -- delete files older than 'n' days.
-srm -clean xG -- delete files larger than 'x' GB.
-srm -clean xM -- delete files larger than 'x' MB.
-srm -recover (file) -- recover a file from the trash directory into current directory.
-srm -recover (file) (directory) -- recover a file from the trash directory into specified directory.
-
-ToDo:
--- ALL USAGE --
-Recognition of sensible paths (e.g. /, /home/user, /home/user/Documents, /home/user/Documents/Projects, /home/user/Desktop, ...)
-  - If user does "srm ." and is in /home/user/, srm WON'T delete anything.
-Confirm deletion
-Safe mode (keep files for 30 days)
-"""
+config.init()
 
 
 def main():

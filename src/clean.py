@@ -3,8 +3,6 @@ import shutil
 
 import config
 
-config.init()
-
 
 def clean():
     trash_files = os.listdir(config.trash_dir_files)

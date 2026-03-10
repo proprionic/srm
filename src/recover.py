@@ -4,8 +4,6 @@ from pathlib import Path
 
 import config
 
-config.init()
-
 """
 1. Get metadata
 2. Scan metadata ---> Name, Size, Type, Original path (if needed)
@@ -34,7 +32,7 @@ def recover(file):
             file_path = data.get("dest")
 
             shutil.move(file_path, file_og_path)
-            print(f"{file} moved to {data.get('dest')}")
+            print(f"{file} moved to {file_og_path}")
             break
     if not found:
         print(f"File {file} not found.")
