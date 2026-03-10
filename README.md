@@ -136,10 +136,10 @@ def init():
 
 I added the list feature, i admit i used a little bit of AI to help me out with it, i wouldn't have done it normally, but i know i couldn't have done it myself. What i did with AI is just printing nicely the files with all the heading and stuff, the logic is all mine. 
 
-###### 9th March 2026 -- 19:07
+###### 9th March 2026 -- 07:07 pm
 
 I added the recover feature, i gotta say i'm not sure about the code being the most clean and efficient but, it works! I'll probably check it out in a hour or so, i just need a little break. It wasn't that hard but, i did it in a public area and all the noise was KILLING me. 
 
-###### 10th March 2026 -- 13:28
+###### 10th March 2026 -- 01:28 pm
 
 I woke up an hour ago and i'm already up working on SRM. Probably i'm putting too much effort since it's a pretty simple tool but i gotta say it's pretty enjoyable. What i wanna work on now is perfecting the recovery feature since right now srm knows how to recover files simply based off of the name. I wanna add the ability to recover files based off of size, deletion time and type. 
